@@ -19,8 +19,8 @@ def get_token():
         # Add other headers here
     }
     data = {
-        "userName": "GL_API",
-        "password": "GL_22*Huawei-API"
+        "userName": "user",
+        "password": "password"
     }
     encoded_data = json.dumps(data).encode('utf-8')
     response = https.request(
